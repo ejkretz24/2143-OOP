@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <fstream>
 #include <json.hpp>
 
 using json = nlohmann::json;
@@ -73,7 +75,7 @@ int main(int argc, char* argv[]) {
     string pattern_name = argv[2];
     string file_name = argv[1];
 
-    std::ifstream file(a); // open the file
+    std::ifstream file; // open the file
 
     if (!file.is_open()) {
         std::cerr << "Could not open JSON file! "<<file_name<<"\n";
@@ -83,7 +85,7 @@ int main(int argc, char* argv[]) {
     json patterns;
     file >> patterns;
 
-    colorPrint(patterns;)
+    colorPrint(patterns);
     cout << "Hello World" << endl;
 
 return 0;
