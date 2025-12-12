@@ -5,4 +5,4 @@ R : Randomize,
 C : Clear,
 G : Spawn Glider,
 [+] : Increase Framerate,
-[-] : Decrease Framerate,
+[-] : Decrease Framerate
