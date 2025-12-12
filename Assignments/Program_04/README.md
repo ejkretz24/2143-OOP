@@ -1,6 +1,6 @@
 # Game of Life
 ## Controls
-Pause - Space,
+Pause : Space,
 R : Randomize,
 C : Clear,
 G : Spawn Glider,
